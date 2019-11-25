@@ -1,24 +1,39 @@
-# SoundCloud style audio player in Flutter
+<h1 align="center">
+  <a href="https://github.com/minikin/flutter-audio">
+   SoundCloud style audio player in Flutter
+  </a>
+</h1>
 
-[![Build Status](https://app.bitrise.io/app/474b5771151802eb/status.svg?token=4s7obPnI_yciJHHVwQG_Bg&branch=develop)](https://app.bitrise.io/app/474b5771151802eb)
+<p align="center">
+  <a href="https://github.com/minikin/flutter-audio/blob/develop/LICENSE">
+    <img src="https://img.shields.io/badge/license-mixed-blue.svg" alt="Mixed license." />
+  </a>
+  <a href="https://app.bitrise.io/app/474b5771151802eb">
+    <img src="https://app.bitrise.io/app/474b5771151802eb/status.svg?token=4s7obPnI_yciJHHVwQG_Bg&branch=develop" alt="Build Status" />
+  </a>
+  <a href="https://facebook.github.io/react-native/docs/contributing">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
+  </a>
+</p>
 
-- [SoundCloud style audio player in Flutter](#soundcloud-style-audio-player-in-flutter)
-  - [Features](#features)
-  - [Requirements](#requirements)
-  - [Develop](#develop)
-  - [FAQ](#faq)
-  - [Helpers](#helpers)
-  - [License](#license)
+## Contents
+
+- [Contents](#contents)
+- [Features](#features)
+- [📋 Requirements](#%f0%9f%93%8b-requirements)
+- [🎉 Develop](#%f0%9f%8e%89-develop)
+- [📖 FAQ](#%f0%9f%93%96-faq)
+- [📄 License](#%f0%9f%93%84-license)
 
 ## Features
 
 _WIP_
 
-## Requirements
+## 📋 Requirements
 
-- Flutter: the latest version on `flutter stable channel`
-- Dart: 2.5.0+
-- Xcode: 11.0+
+- Flutter: the latest version on `flutter channel beta`
+- Dart: 2.7.0+
+- Xcode: 11.2.1+
 - Androind Studio 3.3.1+
 - Ruby: 2.4+
 - CocoaPods: 1.8.0+
@@ -26,36 +41,18 @@ _WIP_
   - [Visual Studio Code](https://flutter.dev/docs/get-started/editor?tab=androidstudio)
   - [Android Studio / IntelliJ](https://flutter.dev/docs/get-started/editor?tab=vscode)
 
-## Develop
+## 🎉 Develop
 
 _WIP_
 
-## FAQ
+## 📖 FAQ
 
 If you have any questions ping me on twitter: [@minikin](https://twitter.com/minikin)
 
-## Helpers
+## 📄 License
 
-Audio to json
+This project is licensed under the mixed license.
 
-```sh
-audiowaveform -i minikin_raw.mp3 -o minikin_raw.json -z 2028
+The source code of project is licensed under the [MIT license](LICENSE_SOURCE_CODE).
 
-audiowaveform -i ambient_c_motion.mp3 -o ambient_c_motion.json -z 4056
-
-audiowaveform -i ambient_c_motion.mp3 -o ambient_c_motion.json -z 8112
-
-audiowaveform -i Setec_-_01_-_Ill_Be_Good.mp3 -o Setec_-_01_-_Ill_Be_Good.json -z 16224
-```
-
-```sh
-flutter create --org me.minikin.flutter .
-```
-
-## License
-
-This project is licensed under the MIT.
-
-Audio assets are distribute under [Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode).
-
-Images for artworks are from [Unsplash](https://unsplash.com).
+To check license for audio files and artworks check [LICENSE_ASSETS](LICENSE_ASSETS).
