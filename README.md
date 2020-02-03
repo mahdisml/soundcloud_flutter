@@ -18,12 +18,11 @@
 
 ## Contents
 
-- [Contents](#contents)
 - [Features](#features)
-- [📋 Requirements](#%f0%9f%93%8b-requirements)
-- [🎉 Develop](#%f0%9f%8e%89-develop)
-- [📖 FAQ](#%f0%9f%93%96-faq)
-- [📄 License](#%f0%9f%93%84-license)
+- [📋 Requirements](#-requirements)
+- [🎉 Develop](#-develop)
+- [📖 FAQ](#-faq)
+- [📄 License](#-license)
 
 ## Features
 
