@@ -31,9 +31,9 @@ _WIP_
 
 ## 📋 Requirements
 
-- Flutter: the latest version on `flutter channel beta`
-- Dart: 2.7.0+
-- Xcode: 11.2.1+
+- Flutter: the latest version on `flutter stable channel`
+- Dart: 2.8.0+
+- Xcode: 11.0+
 - Androind Studio 3.3.1+
 - Ruby: 2.4+
 - CocoaPods: 1.8.0+
